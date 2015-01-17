@@ -5,8 +5,11 @@ This Python script is logging each second of time along with GPS position from G
 ###Usage:
 Simply run the ./log_position.py
 
+![alt tag](https://raw.githubusercontent.com/ggtd/independend-python-gps-logger-for-airodump-ng/master/screen2.png)
+
 The logfile is writen into ./gps_log_file
 Log file is a TXT file. One line is representing one second in time and GPS.latitude + GPS.longitude.
+
 
 Have fun!
 
