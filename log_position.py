@@ -61,10 +61,9 @@ if __name__ == '__main__':
       print '----------------------------------------'
       print 'latitude    ' , gpsd.fix.latitude
       print 'longitude   ' , gpsd.fix.longitude
-      print 'time utc    ' , gpsd.utc
+      print 'GPS time utc    ' , gpsd.utc
       print
-      print 'time1:', time1
-      print 'time2:', time2
+      print 'Local (device) Time:', time1
 
 
       if (time1+"" != time2+""): # Check if Second tick changed, if yes, log possiton
