@@ -9,6 +9,7 @@ Simply run the ./log_position.py
 
 The logfile is writen into ./gps_log_file
 Log file is a TXT file. One line is representing one second in time and GPS.latitude + GPS.longitude.
+NOTE: Time in file is local device time (not GPS-time). To match other data time source on local system.
 
 
 Have fun!
