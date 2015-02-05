@@ -71,6 +71,7 @@ if __name__ == '__main__':
 	time2=datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 	log_string=str(time1)+":"+str(gpsd.fix.latitude)+" "+str(gpsd.fix.longitude)+"\n"
 	flog.write(log_string)
+	flog.flush()
       time.sleep(0.4)
 
  
