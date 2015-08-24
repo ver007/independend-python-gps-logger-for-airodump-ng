@@ -1,5 +1,7 @@
 ## GPS logger tool for airodump-ng client data (CSV)
-
+这Python脚本被记录的时间每一秒以及来自GPSD GPS位置。输出文件可以用来跟踪您的上网IP，或确定GPS位置
+对“airodump中-NG”CSV文件无线客户端设备。
+ 坦率地说这是一个简单的通用产品安全指令为TXT文件记录器。
 This Python script is logging each second of time along with GPS position from GPSD. Later to be used to determine the GPS position of Wifi Client devices against airodump-ng CSV file.
 
 ###Usage:
